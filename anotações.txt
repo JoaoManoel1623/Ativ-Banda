@@ -6,6 +6,6 @@ SEÇÕES: MÚSICAS
         VÍDEOS (com acesso ao Youtube)
         SUCESSOS
         FOTOS
-        HISTÓRIA (com form para contato com a banda)
+        HISTÓRIA (com form para contato com a banda, mas vou por na seção "SOBRE MIM")
         PÁGINA SOBRE MIM
 
