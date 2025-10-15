@@ -75,8 +75,8 @@ header a:hover {
 }
 
 .texto {
-    display: flex;
-    flex-wrap: wrap ;
+  display: flex;
+  flex-wrap: wrap;
   max-width: 70%;
   font-size: 20px;
   color: rgb(0, 0, 0);
@@ -84,11 +84,33 @@ header a:hover {
   line-height: 30px;
 }
 
-p{
-    margin-bottom: 7px;
-font-size: x-large;
+p {
+  margin-bottom: 7px;
+  font-size: x-large;
 }
 
 i {
   font-size: 20px;
 }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.roda {
+  max-width: 30%;
+  animation: spin 2s linear infinite;
+}
+
+.div-roda {
+    float: right;
+  display: flex;
+  justify-content: center;
+}
+
