@@ -5,11 +5,9 @@
 }
 
 header {
-  background-image: linear-gradient(
-    to right,
-    rgb(56, 53, 53),
-    rgba(0, 0, 0, 0.993)
-  );
+  background-image: linear-gradient(to right,
+      rgb(56, 53, 53),
+      rgba(0, 0, 0, 0.993));
 }
 
 .h-title {
@@ -35,6 +33,7 @@ header a {
   border: 2px solid black;
   transition: all.3s ease-in-out;
 }
+
 header a:hover {
   border-radius: 7px;
   text-shadow: 0px 0px 10px rgb(233, 170, 52);
@@ -54,6 +53,7 @@ header a:hover {
   border-radius: 20px;
   box-shadow: 10px 10px 0 rgba(230, 160, 21, 0.784);
   transition: all.3s ease-in-out;
+  overflow: hidden;
 }
 
 .pablo:hover {
@@ -97,6 +97,7 @@ i {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -109,8 +110,7 @@ i {
 }
 
 .div-roda {
-    float: right;
+  float: right;
   display: flex;
   justify-content: center;
 }
-

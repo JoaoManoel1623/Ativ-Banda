@@ -1,5 +1,50 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+  background-image: linear-gradient(to right,
+      rgb(56, 53, 53),
+      rgba(0, 0, 0, 0.993));
+}
+
+.h-title {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  text-shadow: 0px 0px 20px rgb(233, 170, 52);
+  letter-spacing: 10px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header a {
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.658);
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  transition: all.3s ease-in-out;
+}
+
+header a:hover {
+  border-radius: 7px;
+  text-shadow: 0px 0px 10px rgb(233, 170, 52);
+  color: rgb(226, 203, 68);
+  transform: scale(1.1);
+}
+
+main a{
+    text-shadow: 0px 0px 5px rgb(233, 170, 52);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
