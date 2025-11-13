@@ -8,7 +8,7 @@ header {
   background-image: linear-gradient(
     to right,
     rgb(56, 53, 53),
-    rgba(0, 0, 0, 0.993)
+    rgba(0, 0, 0, 0.932)
   );
 }
 
@@ -42,6 +42,24 @@ header a:hover {
   transform: scale(1.1);
 }
 
+main {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Picassos\ Falsos\ 1987.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+
+.texto h1,
+h6 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+}
+
 .pablo {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -51,14 +69,21 @@ header a:hover {
   justify-content: center;
   border: 3px solid rgb(190, 158, 31);
   margin: 30px 30px 0 20px;
-  border-radius: 20px;
   box-shadow: 10px 10px 0 rgba(230, 160, 21, 0.784);
   transition: all.3s ease-in-out;
+  background-color: aliceblue;
+  color: black;
 }
 
 .pablo:hover {
   box-shadow: 0px 0px 20px rgb(238, 255, 0);
   transform: scale(1.1);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), 
+    url("arte\ falsa.jpg");
+      background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
 .img-pablo {
@@ -87,30 +112,20 @@ header a:hover {
 p {
   margin-bottom: 7px;
   font-size: x-large;
+  color: aliceblue;
 }
 
 i {
   font-size: 20px;
 }
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-.roda {
-  max-width: 30%;
-  animation: spin 2s linear infinite;
-}
-
-.div-roda {
-    float: right;
-  display: flex;
+footer {
+  background-color: rgb(56, 53, 53);
+  color: white;
+  align-items: center;
   justify-content: center;
-}
+  display: flex;
+  font-size: 18px;
+  height: 15vh;
 
+}
