@@ -53,7 +53,7 @@ header a:hover {
 
 main{
 background-image: linear-gradient(rgba(0, 0, 0, 0.6 ), rgba(0, 0, 0, 0.6)),
-    url("banda\ picassos.jpg");
+    url("img/banda\ picassos.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -46,7 +46,7 @@ header a:hover {
 main {
   
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("Picassos\ Falsos\ 1987.jpg");
+    url("img/Picassos\ Falsos\ 1987.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -80,7 +80,7 @@ h6 {
   box-shadow: 0px 0px 20px rgb(238, 255, 0);
   transform: scale(1.1);
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), 
-    url("arte\ falsa.jpg");
+    url("img/ arte\ falsa.jpg");
       background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

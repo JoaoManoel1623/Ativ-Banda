@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: linear-gradient(
+    to right,
+    rgb(56, 53, 53),
+    rgba(0, 0, 0, 0.932)
+  );
+}
+
+.h-title {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: rgb(226, 203, 68);
+  margin-bottom: 10px;
+  text-shadow: 0px 0px 20px rgb(233, 170, 52);
+  letter-spacing: 10px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header a {
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.658);
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  transition: all.3s ease-in-out;
+}
+
+header a:hover {
+  border-radius: 7px;
+  text-shadow: 0px 0px 10px rgb(233, 170, 52);
+  color: rgb(226, 203, 68);
+  transform: scale(1.1);
+}
+
+main {
+  background-color: rgb(46, 43, 43);
+  display: flex;
+  gap: 30vh;
+}
+
+h1 {
+  color: rgb(207, 204, 204);
+}
+
+.texto {
+  margin-right: 30px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  height: 50vh;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: large;
+  line-height: 2;
+}
+
+i {
+  font-size: 20px;
+}
+
+footer {
+  background-color: rgb(56, 53, 53);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+  height: 15vh;
+}
