@@ -44,36 +44,42 @@ header a:hover {
 }
 
 main {
-  background-color: rgb(46, 43, 43);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.789)),
+    url(img/picassos-falsoslaranja.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
   display: flex;
-  gap: 30vh;
-}
-
-h1 {
-  color: rgb(207, 204, 204);
-}
-
-.texto {
-  margin-right: 30px;
-}
-
-.formulario {
-  display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  border: 2px solid black;
-  height: 50vh;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+  text-align: center;
 }
 
-img {
-  width: 500px;
-  height: 500px;
+div img{
+width: 250px;
 }
 
-p {
-  color: rgb(255, 255, 255);
-  font-size: large;
-  line-height: 2;
+ul{
+display: flex;
+gap: 30px;
+}
+
+li{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 2px solid rgba(217, 149, 100, 0.666);
+border-radius: 8px;
+width: 300px;
+}
+
+div{
+margin: auto;
 }
 
 i {

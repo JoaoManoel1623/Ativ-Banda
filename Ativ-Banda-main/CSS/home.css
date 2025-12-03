@@ -79,7 +79,11 @@ h6 {
 .pablo:hover {
   box-shadow: 0px 0px 20px rgb(238, 255, 0);
   transform: scale(1.1);
- background: none;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), 
+    url("img/ arte\ falsa.jpg");
+      background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 

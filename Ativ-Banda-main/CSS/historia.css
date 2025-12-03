@@ -3,7 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter";
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
 }
 
 p,h2,h3,li{
@@ -17,7 +20,7 @@ header {
 }
 
 .h-title {
-  font-size: 25px;
+  font-size: 40px;
   display: flex;
   justify-content: center;
   color: rgb(255, 255, 255);
